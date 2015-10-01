@@ -1,0 +1,6 @@
+{
+  "rules": [
+    "beanstalk.util.prod:11300/conn_completed -> dev.databox.com:11300/conn_completed",
+    "beanstalk.util.prod:11300/conn_started -> dev.databox.com:11300/conn_started"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "tube2tube",
+      "script": "tube2tube.coffee",
+      "instances": 1,
+      "merge_logs": true,
+      "autorestart": true,
+      "cwd": "/home/app/tube2tube"
+    }
+  ]
+}

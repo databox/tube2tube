@@ -1,0 +1,6 @@
+{
+  "rules": [
+    "beanstalkd:11300/conn_completed -> beanstalkd:11300/conn_completed_final",
+    "beanstalkd:11300/conn_started -> beanstalkd:11300/conn_started_final"
+  ]
+}

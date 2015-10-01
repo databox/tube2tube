@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+
+exec 2>&1
+exec pm2 start /home/app/tube2tube/processes.json \
+    --no-daemon \
+    --no-pmx \
+    --mini-list
