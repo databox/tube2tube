@@ -20,15 +20,15 @@ benstalkd to another bestanlkd according to [rules](config/development.json).
 ## Production
 
     make build
-	docker run -h tube2tube \
+	docker run \
+	    -h tube2tube \
 	    --restart=always \
 		--name tube2tube \
 		--dns=10.240.218.252 \
 		-e NODE_ENV=production \
 		-v `pwd`/./:/home/app/tube2tube \
-		--rm -ti databox/tube2tube \
 		-ti databox/tube2tube
-
+		
 ## Author
 
 - [Oto Brglez](https://github.com/otobrglez)
